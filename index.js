@@ -1,7 +1,7 @@
 
 const { connectDB } = require('./config/dbConnection');
 const { errorHandler } = require('./middleware/errorHandler');
-const Person = require('./model/PersonModel');
+const Person = require('./model/personModel');
 const mongoose = require('mongoose');
 const express = require('express');
 const asyncHandler = require('express-async-handler');
