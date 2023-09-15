@@ -35,7 +35,7 @@ Before you begin, ensure you have met the following requirements:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Wilsonide/HNGStage2.git
+   git clone https://github.com/Wilsonide/hngtask2.git
    cd your-api-project
    ```
 
@@ -49,7 +49,7 @@ Before you begin, ensure you have met the following requirements:
    ```
 4. Setup Express web server.
 
-   In the root folder, let’s create a new server.js file:
+   In the root folder, let’s create a new index.js file:
 
    ```
 
@@ -59,7 +59,7 @@ Before you begin, ensure you have met the following requirements:
    const app = express();
 
    var corsOptions = {
-   origin: "http://localhost:8081"
+   origin: "http://localhost:8000"
    };
 
    app.use(cors(corsOptions));
@@ -84,6 +84,6 @@ Before you begin, ensure you have met the following requirements:
 
 5. Run the project
    ```
-   node server.js
+   node index.js
    ```
-   Your API should now be running locally at http://localhost:5000
+   Your API should now be running locally at http://localhost:8000
